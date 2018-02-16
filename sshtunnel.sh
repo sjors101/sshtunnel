@@ -6,8 +6,8 @@
 # EXAMPLE SSH: ssh remote_user@127.0.0.1 -i /root/.ssh/remote_key.pem -p 12345
 # EXAMPLE SCP: scp -i /root/.ssh/remote_key.pem -P 12345 documents.tar.gz  remote_user@127.0.0.1:/tmp/
 
-SSHKEY='/root/.ssh/openstack.test.pem'  # add key for connection to gateway / jumpnode
-SSHUSER='ubuntu' # add user for connection to gateway / jumpnode
+SSHKEY='/root/.ssh/gateway_key.pem'  # add key for connection to gateway / jumpnode
+SSHUSER='gateway_user' # add user for connection to gateway / jumpnode
 PORT='12345' # no need to change this port
 
 create(){ # Create a new Tunnel
