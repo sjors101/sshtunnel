@@ -1,4 +1,5 @@
 #!/bin/bash
+# Author: Sjors101 <https://github.com/sjors101/>, 16/02/2017
 # Setting up an ssh tunnel easily. 
 # This can be used to centralize your ssh communication and connect via jump nodes.
 #
